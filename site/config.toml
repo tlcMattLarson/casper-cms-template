@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "TLC DOCS"
-theme = "docdock"
+theme = "docDock"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
@@ -13,7 +13,7 @@ canonifyurls = true
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-editURL = "https://github.com/tlcMattLarson/casper-cms-template/content/"
+#editURL = "https://github.com/tlcMattLarson/casper-cms-template/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
 showVisitedLinks = true # default is false
