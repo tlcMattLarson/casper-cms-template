@@ -1,7 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "TLC DOCS"
-theme = "docDock"
+theme = "hugo-theme-docdock-master"
+themesdir = "themes"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
@@ -13,21 +14,13 @@ canonifyurls = true
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  description = ""
-  cover = "images/cover.jpg"
-  author = ""
-  authorlocation = ""
-  authorwebsite = ""
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = ""
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = ""
-  githubName = ""
-  twitterName = ""
-  # facebookName = ""
-  # linkedinName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = true
+editURL = "https://github.com/tlcMattLarson/casper-cms-template/content/"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = true # default is false
+# themeStyle = "theme" # overide base css
+themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+
   [params.social]
     twitter = ""
