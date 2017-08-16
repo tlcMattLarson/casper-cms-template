@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: capriosa/mkdocs-cms
+  repo: tlcMattLarson/casper-cms-template
   branch: master
 
 public_folder: "site"

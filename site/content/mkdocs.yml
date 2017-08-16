@@ -2,7 +2,7 @@ site_name: Online-Dokumentationen
 theme: readthedocs
 site_description: A Material Design theme for MkDocs
 site_author: Meinolf Droste
-site_url: http://mdwp-mkdocs-cms.netlify.com/
+site_url: http://tlcdocs.netlify.com/
 
 extra:
   social:
@@ -22,8 +22,8 @@ extra:
 extra_css:
   - 'stylesheets/extra.css'
 
-repo_name: 'capriosa/mkdocs-cms'
-repo_url: 'https://github.com/capriosa/mkdocs-cms'
+repo_name: 'tlcMattLarson/casper-cms-template'
+repo_url: 'https://github.com/tlcMattLarson/casper-cms-template'
 
 # Copyright
 copyright: '<a href="https://www.mdwp.de">mdwp</a>'
