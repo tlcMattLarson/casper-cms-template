@@ -1,7 +1,7 @@
-site_name: Online-Dokumentationen
+site_name: TLC Docs
 theme: readthedocs
-site_description: A Material Design theme for MkDocs
-site_author: Meinolf Droste
+site_description:
+site_author:
 site_url: http://tlcdocs.netlify.com/
 
 extra:
@@ -29,7 +29,7 @@ repo_url: 'https://github.com/tlcMattLarson/casper-cms-template'
 copyright: '<a href="https://www.mdwp.de">mdwp</a>'
 
 # Theme directory
-theme_dir: material
+theme_dir: readthedocs
 
 # Extensions
 markdown_extensions:
