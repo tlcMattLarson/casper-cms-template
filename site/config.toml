@@ -1,13 +1,13 @@
-baseurl = "/"
+#baseurl = "/"
 languageCode = "en-us"
 title = "TLC DOCS"
-theme = "docDock"
-disqusShortname = ""
+theme = "docdock"
+#disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+#googleAnalytics = ""
 # Define how many posts should appear on a site
-paginate = 10
-canonifyurls = true
+#paginate = 10
+#canonifyurls = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -20,6 +20,3 @@ showVisitedLinks = true # default is false
 # themeStyle = "theme" # overide base css
 themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
-
-  [params.social]
-    twitter = ""
