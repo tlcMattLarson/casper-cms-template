@@ -11,7 +11,7 @@ media_folder: "site/static/img/blog" # Folder where user uploaded files should g
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+    folder: "../../content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -19,19 +19,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "doc"
     label: "Doc"
-    folder: "site/content/docs"
+    folder: "../../content/docs"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "extensions"
     label: "Extensions"
-    folder: "site/content/docs/extensions"
+    folder: "../../content/docs/extensions"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
