@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "TLC DOCS"
-theme = "hugo-theme-docdock-master"
+theme = "hugo-theme-docdock"
 themesdir = "themes"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
