@@ -1,12 +1,11 @@
 backend:
   name: github
-  repo: https://github.com/tlcMattLarson/casper-cms-template # Path to your Github repository
+  repo: tlcMattLarson/casper-cms-template # Path to your Github repository
   branch: master # Branch to update (master by default)
 
+public_folder: "site"
 publish_mode: editorial_workflow
-
 media_folder: "site/static/img/blog" # Folder where user uploaded files should go
-# public_folder: "site"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
