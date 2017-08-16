@@ -2,7 +2,7 @@ site_name: TLC Docs
 theme: docdock
 site_description:
 site_author:
-site_url: https://tlcdocs.netlify.com/
+site_url: http://tlcdocs.netlify.com/
 
 extra:
   social:
